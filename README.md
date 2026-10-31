@@ -31,10 +31,16 @@ Postman · Newman · JavaScript test scripts (pm.test)
 ## How to run
 
 Install Newman:
+
+```bash
 npm install -g newman newman-reporter-html
+```
 
 Run the collection:
+
+```bash
 newman run SIMPLE-BOOK-API/postman_collection.json -r cli,html
+```
 
 ## Report
 A sample Newman HTML report is in `SIMPLE-BOOK-API/newman/`.
